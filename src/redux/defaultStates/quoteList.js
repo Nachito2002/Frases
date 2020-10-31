@@ -27,8 +27,6 @@ export const quoteList = [
 		quote: "Errar es humano, perdonar es divino.",
 		author: "Alexander Pope"
 	},
-	{
-		quote: "Piensa en toda la belleza que aún hay alrededor tuya y sé feliz.",
-		author: "Ana Frank"
-	},
-]
+];
+
+export const num = quoteList.length

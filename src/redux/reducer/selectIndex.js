@@ -1,12 +1,14 @@
-import { quoteList } from '../defaultStates/quoteList';
+import { num } from '../defaultStates/quoteList';
 import { INDEX } from '../actions/selectNewIndex';
 
-const defaultState = quoteList.length;
-
-const select_new_index = (state = defaultState - 1, action) => {
+const select_new_index = (state = 0, action) => {
 	switch(action.type) {
 		case INDEX:
-			return Math.round(Math.random() * state);
+			if (state !== num - 1) {
+				return state + 1;
+			} else {
+				return 0
+			}
 		default:
 			return state;
 	}
