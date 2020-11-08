@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import Twitter from '../../images/twitterSvg.js';
 
 class ShareTwitter extends React.Component {
 	constructor(props) {
@@ -31,11 +32,12 @@ class ShareTwitter extends React.Component {
 		})
 	};
 
-	render() {		
+	render() {
+		const color = this.props.color[this.props.colorIndex]["color"];
 		return (
-			<button>
-				<a href={ this.state.url } target="_blank" onClick={ this.handleShareTweet }>Compartir/Twitter</a>
-			</button>
+			<a href={ this.state.url } target="_blank" onClick={ this.handleShareTweet } className="btn btn-lg btn-white" style={{ backgroundColor: color, color: 'white' }}>
+				Tweet
+			</a>
 		)
 	}
 }
@@ -43,7 +45,9 @@ class ShareTwitter extends React.Component {
 const mapStateToProps = state => {
 	return {
 		quote: state.select_quote,
-		index: state.select_new_index
+		index: state.select_new_index,
+		color: state.select_color,
+		colorIndex: state.select_new_indexColor
 	}
 }
 

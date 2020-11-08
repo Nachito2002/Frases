@@ -5,7 +5,7 @@ import Home from './pages/home';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
-import "./styles/principal.sass";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 	return (
