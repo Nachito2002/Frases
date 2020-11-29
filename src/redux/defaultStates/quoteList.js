@@ -38,7 +38,47 @@ export const quoteList = [
 	{
 		quote: "El sol es débil cuando se eleva primero, y cobra fuerza y coraje a medida que avanza el día.",
 		author: "Vieja tienda de curiosidades, Charles Dickens"
-	}
+	},
+	{
+		quote: "Es en las noches de diciembre, cuando el termómetro está a cero, cuando más pensamos en el sol.",
+        author: "Los miserables, Victor Hugo"
+    },
+	{
+		quote: "Cada libro, cada volumen que ves aquí, tiene un alma. El alma de la persona que lo escribió y de aquellos que lo leyeron, vivieron y soñaron con él. Cada vez que un libro cambia de manos, cada vez que alguien baja sus ojos a las páginas, su espíritu crece y se fortalece.",
+        author: "La Sombra del Viento, Carlos Ruiz Zafón"
+    },
+	{
+		quote: "Mi consejo es: nunca hagas mañana lo que puedes hacer hoy. La procrastinación es la ladrona del tiempo.",
+        author: "David Copperfield, Charles Dickens"
+    },
+	{
+		quote: "Luchar hasta el último aliento.",
+        author: "Enrique VI, William Shakespeare"
+    },
+	{
+		quote: "Conseguir lo que quieres es tan difícil como no conseguir lo que quieres. Porque entonces tienes que averiguar qué hacer con ello, en lugar de averiguar qué hacer sin ello.",
+        author: "El reino de la posibilidad, David Levithan"
+    },
+	{
+		quote: "Deja de preocuparte por envejecer y piensa en crecer.",
+        author: "El animal moribundo, Philip Roth"
+    },
+	{
+		quote: "Crearía un perfume que no sólo fuera humano, sino sobrehumano. Un aroma de ángel, tan indescriptiblemente bueno y pletórico de vigor que quien lo oliera quedaría hechizado y no tendría más remedio que amar a la persona que lo llevara, o sea, amarle a él, Grenouille, con todo su corazón.",
+        author: "El Perfume, Patrick Süskind"
+    },
+	{
+		quote: "¡Qué maravilloso es que nadie necesite esperar ni un solo momento antes de comenzar a mejorar el mundo!",
+        author: "El Diario de Ana Frank, Ana Frank)"
+    },
+	{
+		quote: "Crees que sabes todas tus posibilidades. Entonces, otras personas llegan a tu vida y de repente hay muchas más.",
+        author: "El reino de la posibilidad, David Levithan"
+    },
+	{
+		quote: "Nada hay en el mundo, ni hombre ni diablo ni cosa alguna, que sea para mí tan sospechoso como el amor, pues éste penetra en el alma más que cualquier otra cosa. Nada hay que ocupe y ate más al corazón que el amor. Por eso, cuando no dispone de armas para gobernarse, el alma se hunde, por el amor, en la más honda de las ruinas.",
+        author: "El Nombre de la Rosa, Umberto Eco"
+    }
 ];
 
 export const num = quoteList.length

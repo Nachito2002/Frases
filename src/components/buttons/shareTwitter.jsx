@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Twitter from '../../images/twitterSvg.js';
+// import Twitter from '../../images/twitterSvg.js';
 
 class ShareTwitter extends React.Component {
 	constructor(props) {
