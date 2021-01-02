@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles/home.sass"],"names":[],"mappings":"AAAA,MACC,YAAa,CACb,YAAa,CACb,qBAAsB,CACtB,sBAAuB","file":"main.3a25c1b3.chunk.css","sourcesContent":[".page {\n\theight: 100vh;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center; }\n"]}
