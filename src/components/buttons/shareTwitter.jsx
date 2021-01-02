@@ -13,7 +13,7 @@ class ShareTwitter extends React.Component {
 		this.handleShareTweet = this.handleShareTweet.bind(this);
 	}
 
-	handleShareTweet = () => {
+	handleShareTweet () {
 		// this.props.quote[this.props.index]["quote"]
 		let link = "";
 

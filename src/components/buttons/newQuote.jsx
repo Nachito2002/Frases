@@ -10,7 +10,7 @@ class NewQuote extends React.Component {
 		this.handleChangeIndex = this.handleChangeIndex.bind(this);
 	}
 
-	handleChangeIndex = () => {
+	handleChangeIndex () {
 		this.props.select_new_index();
 		this.props.select_new_index_color();
 	}
